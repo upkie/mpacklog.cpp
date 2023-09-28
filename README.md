@@ -23,8 +23,7 @@ http_archive(
 )
 ```
 
-You can then use the ``@mpacklog`` dependency for C++ targets, or the
-``@mpacklog//:python`` dependency for Python targets.
+You can then use the ``@mpacklog`` dependency in your C++ targets.
 
 ## Usage
 
@@ -48,6 +47,6 @@ int main() {
 
 ## See also
 
-* [mpacklog.py](): Sibling project in Python, with an `mpacklog` command-line tool to manipulate MessagePack files.
+* [mpacklog.py](): Sibling Python project with an `mpacklog` command-line tool to manipulate MessagePack files.
 * [`jq`](https://github.com/stedolan/jq): manipulate JSON series to add, remove or extend fields.
 * [`rq`](https://github.com/dflemstr/rq): transform from/to MessagePack, JSON, YAML, TOML, ...
