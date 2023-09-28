@@ -21,6 +21,11 @@ http_archive(
     strip_prefix = "mpacklog-3.0.0",
     url = "https://github.com/tasts-robots/mpacklog/archive/refs/tags/v3.0.0.tar.gz",
 )
+
+load("@mpacklog//tools/workspace:default.bzl", add_mpacklog_repositories = "add_default_repositories")
+
+# This adds dependencies such as @palimpsest for building mpacklog targets
+add_mpacklog_repositories()
 ```
 
 You can then use the ``@mpacklog`` dependency in your C++ targets.
