@@ -18,5 +18,5 @@
 bazel-*
 build
 coverage
-doc/html
+docs/html
 tools/bazel
