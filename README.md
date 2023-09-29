@@ -2,7 +2,7 @@
 
 [![Build](https://img.shields.io/github/actions/workflow/status/tasts-robots/mpacklog.cpp/bazel.yml?branch=main)](https://github.com/tasts-robots/mpacklog.cpp/actions)
 [![Coverage](https://coveralls.io/repos/github/tasts-robots/mpacklog.cpp/badge.svg?branch=main)](https://coveralls.io/github/tasts-robots/mpacklog.cpp?branch=main)
-[![Documentation](https://img.shields.io/badge/docs-online-brightgreen?logo=read-the-docs&style=flat)](https://scaron.info/doc/mpacklog/)
+[![Documentation](https://img.shields.io/badge/docs-online-brightgreen?logo=read-the-docs&style=flat)](https://scaron.info/doc/mpacklog.cpp/)
 ![C++ version](https://img.shields.io/badge/C++-17/20-blue.svg?style=flat)
 [![C++ release](https://img.shields.io/github/v/release/tasts-robots/mpacklog.cpp.svg?sort=semver)](https://github.com/tasts-robots/mpacklog.cpp/releases)
 
