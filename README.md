@@ -1,10 +1,10 @@
-# mpacklog
+# mpacklog.cpp
 
-[![Build](https://img.shields.io/github/actions/workflow/status/tasts-robots/mpacklog/bazel.yml?branch=main)](https://github.com/tasts-robots/mpacklog/actions)
-[![Coverage](https://coveralls.io/repos/github/tasts-robots/mpacklog/badge.svg?branch=main)](https://coveralls.io/github/tasts-robots/mpacklog?branch=main)
+[![Build](https://img.shields.io/github/actions/workflow/status/tasts-robots/mpacklog.cpp/bazel.yml?branch=main)](https://github.com/tasts-robots/mpacklog.cpp/actions)
+[![Coverage](https://coveralls.io/repos/github/tasts-robots/mpacklog.cpp/badge.svg?branch=main)](https://coveralls.io/github/tasts-robots/mpacklog.cpp?branch=main)
 [![Documentation](https://img.shields.io/badge/docs-online-brightgreen?logo=read-the-docs&style=flat)](https://scaron.info/doc/mpacklog/)
 ![C++ version](https://img.shields.io/badge/C++-17/20-blue.svg?style=flat)
-[![C++ release](https://img.shields.io/github/v/release/tasts-robots/mpacklog.svg?sort=semver)](https://github.com/tasts-robots/mpacklog/releases)
+[![C++ release](https://img.shields.io/github/v/release/tasts-robots/mpacklog.cpp.svg?sort=semver)](https://github.com/tasts-robots/mpacklog.cpp/releases)
 
 Log dictionaries to MessagePack files in C++.
 
@@ -19,7 +19,7 @@ http_archive(
     name = "mpacklog",
     sha256 = "dfc16f4c1221cb209856d7efc7ebada5ac2f4ea6235127d3ec39de3d3c414a93",
     strip_prefix = "mpacklog-3.0.0",
-    url = "https://github.com/tasts-robots/mpacklog/archive/refs/tags/v3.0.0.tar.gz",
+    url = "https://github.com/tasts-robots/mpacklog.cpp/archive/refs/tags/v3.0.0.tar.gz",
 )
 
 load("@mpacklog//tools/workspace:default.bzl", add_mpacklog_repositories = "add_default_repositories")
