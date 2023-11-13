@@ -10,7 +10,7 @@
 
 - Bazel: Compile build targets in optimized mode by default
 - Bazel: Compile coverage and test targets in debug mode by default
-- Python: Move all code to a separate [mpacklog.py](https://github.com/tasts-robots/mpacklog.py) project
+- Python: Move all code to a separate [mpacklog.py](https://github.com/upkie/mpacklog.py) project
 
 ## [3.0.0] - 2023/06/06
 

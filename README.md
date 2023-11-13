@@ -1,10 +1,10 @@
 # mpacklog.cpp
 
-[![Build](https://img.shields.io/github/actions/workflow/status/tasts-robots/mpacklog.cpp/bazel.yml?branch=main)](https://github.com/tasts-robots/mpacklog.cpp/actions)
-[![Coverage](https://coveralls.io/repos/github/tasts-robots/mpacklog.cpp/badge.svg?branch=main)](https://coveralls.io/github/tasts-robots/mpacklog.cpp?branch=main)
+[![Build](https://img.shields.io/github/actions/workflow/status/upkie/mpacklog.cpp/bazel.yml?branch=main)](https://github.com/upkie/mpacklog.cpp/actions)
+[![Coverage](https://coveralls.io/repos/github/upkie/mpacklog.cpp/badge.svg?branch=main)](https://coveralls.io/github/upkie/mpacklog.cpp?branch=main)
 [![Documentation](https://img.shields.io/badge/docs-online-brightgreen?logo=read-the-docs&style=flat)](https://scaron.info/doc/mpacklog.cpp/)
 ![C++ version](https://img.shields.io/badge/C++-17/20-blue.svg?style=flat)
-[![C++ release](https://img.shields.io/github/v/release/tasts-robots/mpacklog.cpp.svg?sort=semver)](https://github.com/tasts-robots/mpacklog.cpp/releases)
+[![C++ release](https://img.shields.io/github/v/release/upkie/mpacklog.cpp.svg?sort=semver)](https://github.com/upkie/mpacklog.cpp/releases)
 
 Log dictionaries to MessagePack files in C++.
 
@@ -19,7 +19,7 @@ http_archive(
     name = "mpacklog",
     sha256 = "389cbd249607f1d0a2bbf6d11cbf0690604966e29a8e75e50160cf0faab068c7",
     strip_prefix = "mpacklog.cpp-3.1.0",
-    url = "https://github.com/tasts-robots/mpacklog.cpp/archive/refs/tags/v3.1.0.tar.gz",
+    url = "https://github.com/upkie/mpacklog.cpp/archive/refs/tags/v3.1.0.tar.gz",
 )
 
 load("@mpacklog//tools/workspace:default.bzl", add_mpacklog_repositories = "add_default_repositories")
@@ -52,6 +52,6 @@ int main() {
 
 ## See also
 
-* [mpacklog.py](https://github.com/tasts-robots/mpacklog.py): Sibling Python project with an `mpacklog` command-line tool to manipulate MessagePack files.
+* [mpacklog.py](https://github.com/upkie/mpacklog.py): Sibling Python project with an `mpacklog` command-line tool to manipulate MessagePack files.
 * [`jq`](https://github.com/stedolan/jq): manipulate JSON series to add, remove or extend fields.
 * [`rq`](https://github.com/dflemstr/rq): transform from/to MessagePack, JSON, YAML, TOML, ...
