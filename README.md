@@ -2,7 +2,7 @@
 
 [![Build](https://img.shields.io/github/actions/workflow/status/upkie/mpacklog.cpp/bazel.yml?branch=main)](https://github.com/upkie/mpacklog.cpp/actions)
 [![Coverage](https://coveralls.io/repos/github/upkie/mpacklog.cpp/badge.svg?branch=main)](https://coveralls.io/github/upkie/mpacklog.cpp?branch=main)
-[![Documentation](https://img.shields.io/badge/docs-online-brightgreen?logo=read-the-docs&style=flat)](https://scaron.info/doc/mpacklog.cpp/)
+[![Documentation](https://img.shields.io/badge/docs-online-brightgreen?logo=read-the-docs&style=flat)](https://upkie.github.io/mpacklog.cpp/)
 ![C++ version](https://img.shields.io/badge/C++-17/20-blue.svg?style=flat)
 [![C++ release](https://img.shields.io/github/v/release/upkie/mpacklog.cpp.svg?sort=semver)](https://github.com/upkie/mpacklog.cpp/releases)
 
