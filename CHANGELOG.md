@@ -1,6 +1,17 @@
 # Changelog
 
-## [3.1.0] - 2023/09/29
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Added
+
+- CICD: Documentation workflow
+
+## [3.1.0] - 2023-09-29
 
 ### Added
 
@@ -12,7 +23,7 @@
 - Bazel: Compile coverage and test targets in debug mode by default
 - Python: Move all code to a separate [mpacklog.py](https://github.com/upkie/mpacklog.py) project
 
-## [3.0.0] - 2023/06/06
+## [3.0.0] - 2023-06-06
 
 ### Added
 
@@ -24,13 +35,13 @@
 - (Python: Rename ``Logger`` to ``AsyncLogger``)
 - (Python: Remove unused ``mypy_integration``)
 
-## [2.1.0] - 2023/04/26
+## [2.1.0] - 2023-04-26
 
 ### Changed
 
 - Make code compatible with macOS (thanks to @boragokbakan)
 
-## [2.0.0] - 2022/09/01
+## [2.0.0] - 2022-09-01
 
 ### Added
 
@@ -42,6 +53,13 @@
 - (Python: `mpacklog` command-line tool)
 - (Python: Unit tests for Python API)
 
-## [1.0.0] - 2022/08/17
+## [1.0.0] - 2022-08-17
 
 First release of the project.
+
+[unreleased]: https://github.com/qpsolvers/qpsolvers/compare/v3.1.0...HEAD
+[3.1.0]: https://github.com/qpsolvers/qpsolvers/compare/v3.0.0...v3.1.0
+[3.0.0]: https://github.com/qpsolvers/qpsolvers/compare/v2.1.0...v3.0.0
+[2.1.0]: https://github.com/qpsolvers/qpsolvers/compare/v2.0.0...v2.1.0
+[2.0.0]: https://github.com/qpsolvers/qpsolvers/compare/v1.0.0...v2.0.0
+[1.0.0]: https://github.com/qpsolvers/qpsolvers/releases/tag/v1.0.0
