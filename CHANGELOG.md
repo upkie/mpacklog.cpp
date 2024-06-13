@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - CICD: Documentation workflow
 
+### Changed
+
+- docs: Don't show include files on class pages
+
 ## [3.1.0] - 2023-09-29
 
 ### Added
