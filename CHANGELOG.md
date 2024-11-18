@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Bazel: Specify Bazel version to use a workspace rather than bzlmod
 - CICD: Documentation workflow
+- deps: Update palimpsest to 2.2.1
 
 ### Changed
 

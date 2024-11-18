@@ -1,14 +1,20 @@
 # -*- python -*-
 
-load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
-def palimpsest_repository():
+def palimpsest_repository(
+        version = "2.2.1",
+        sha256 = "d998b4e195ef75e558f0477da85ffd1961fb2a5b9ad1bafa1a378b6fa8931505"):
     """
-    Clone repository from GitHub and make its targets available for binding.
+    Download release archive from GitHub.
+
+    Args:
+        version: Version of the library to download.
+        sha256: SHA-256 checksum of the downloaded archive.
     """
-    git_repository(
+    http_archive(
         name = "palimpsest",
-        remote = "https://github.com/upkie/palimpsest.git",
-        commit = "4a2d4935ca3394cb036cfad4c9030d3b22b8cc42",
-        shallow_since = "1654192305 +0200"
+        url = "https://github.com/stephane-caron/palimpsest/archive/refs/tags/v{}.tar.gz".format(version),
+        sha256 = sha256,
+        strip_prefix = "palimpsest-{}".format(version),
     )
