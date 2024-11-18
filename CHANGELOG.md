@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Bazel: Specify Bazel version to use a workspace rather than bzlmod
 - CICD: Documentation workflow
 
 ### Changed
