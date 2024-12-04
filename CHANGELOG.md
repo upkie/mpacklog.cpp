@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Bazel: Compile build targets in optimized mode by default
 - Bazel: Compile coverage and test targets in debug mode by default
-- Python: Move all code to a separate [mpacklog.py](https://github.com/upkie/mpacklog.py) project
+- Python: Move all code to a separate [mpacklog.py](https://github.com/stephane-caron/mpacklog.py) project
 
 ## [3.0.0] - 2023-06-06
 
