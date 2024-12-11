@@ -1,10 +1,10 @@
 # mpacklog.cpp
 
-[![Build](https://img.shields.io/github/actions/workflow/status/upkie/mpacklog.cpp/bazel.yml?branch=main)](https://github.com/upkie/mpacklog.cpp/actions)
-[![Coverage](https://coveralls.io/repos/github/upkie/mpacklog.cpp/badge.svg?branch=main)](https://coveralls.io/github/upkie/mpacklog.cpp?branch=main)
+[![Build](https://img.shields.io/github/actions/workflow/status/stephane-caron/mpacklog.cpp/bazel.yml?branch=main)](https://github.com/stephane-caron/mpacklog.cpp/actions)
+[![Coverage](https://coveralls.io/repos/github/stephane-caron/mpacklog.cpp/badge.svg?branch=main)](https://coveralls.io/github/stephane-caron/mpacklog.cpp?branch=main)
 [![Documentation](https://img.shields.io/badge/docs-online-brightgreen?logo=read-the-docs&style=flat)](https://upkie.github.io/mpacklog.cpp/)
 ![C++ version](https://img.shields.io/badge/C++-17/20-blue.svg?style=flat)
-[![C++ release](https://img.shields.io/github/v/release/upkie/mpacklog.cpp.svg?sort=semver)](https://github.com/upkie/mpacklog.cpp/releases)
+[![C++ release](https://img.shields.io/github/v/release/stephane-caron/mpacklog.cpp.svg?sort=semver)](https://github.com/stephane-caron/mpacklog.cpp/releases)
 
 Log dictionaries to MessagePack files in C++.
 
@@ -19,7 +19,7 @@ http_archive(
     name = "mpacklog",
     sha256 = "389cbd249607f1d0a2bbf6d11cbf0690604966e29a8e75e50160cf0faab068c7",
     strip_prefix = "mpacklog.cpp-3.1.0",
-    url = "https://github.com/upkie/mpacklog.cpp/archive/refs/tags/v3.1.0.tar.gz",
+    url = "https://github.com/stephane-caron/mpacklog.cpp/archive/refs/tags/v3.1.0.tar.gz",
 )
 
 load("@mpacklog//tools/workspace:default.bzl", add_mpacklog_repositories = "add_default_repositories")
