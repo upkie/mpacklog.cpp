@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.1] - 2024-12-17
+
 ### Added
 
 - Bazel: Specify Bazel version to use a workspace rather than bzlmod
@@ -64,7 +66,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 First release of the project.
 
-[unreleased]: https://github.com/qpsolvers/qpsolvers/compare/v3.1.0...HEAD
+[unreleased]: https://github.com/qpsolvers/qpsolvers/compare/v3.1.1...HEAD
+[3.1.1]: https://github.com/qpsolvers/qpsolvers/compare/v3.1.0...v3.1.1
 [3.1.0]: https://github.com/qpsolvers/qpsolvers/compare/v3.0.0...v3.1.0
 [3.0.0]: https://github.com/qpsolvers/qpsolvers/compare/v2.1.0...v3.0.0
 [2.1.0]: https://github.com/qpsolvers/qpsolvers/compare/v2.0.0...v2.1.0
